@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/habittrackerdb
+    username: lauti 
+    password: test123
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate 
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/habittrackerdb
